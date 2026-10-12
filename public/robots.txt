@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://onlineprintertestpage.pages.dev/sitemap_index.xml
+Sitemap: https://onlineprintertestpage.pages.dev/sitemap.xml
