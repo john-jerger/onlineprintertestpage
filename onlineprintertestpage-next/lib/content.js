@@ -1,0 +1,55 @@
+export const TESTS = [
+  { kind: 'test', slug: 'black-and-white-test-page', tab: 'bw', nav: 'Black & White', updated: '2026-10-12',
+    title: 'Black and White Test Page – Free Printable Grayscale Printer Test',
+    desc: 'Print a free black and white test page: grayscale gradient, solid black and fine patterns to check toner, black ink and banding on any printer.',
+    h1: 'Black and White Test Page',
+    lead: 'Check black ink or toner quality with a grayscale gradient, a solid black block, fine patterns and text from 24pt down to 6pt.',
+    blocks: [
+      ['What this page tests', 'It shows how evenly your printer lays down black. Look for smooth gray steps, a uniform solid black block and crisp fine lines.'],
+      ['What bad results mean', 'Gray bands or streaks usually mean low toner, a worn drum (laser) or clogged black nozzles (inkjet). Repeating marks point to a drum or fuser roller. Blurry fine lines suggest an alignment or print head issue.'],
+      ['Save ink', 'This page uses only black, so it is a cheap test for color inkjets. Choose grayscale or black ink only in the print dialog to avoid mixing color ink.'] ],
+    faq: [['Does this page use color ink?', 'It is drawn in grayscale, but some printers mix color ink into grays. Choose Black ink only or Grayscale in the print dialog to avoid that.'], ['Why is my solid black block uneven?', 'Uneven black usually means low toner, a worn drum or partly clogged nozzles. Run a cleaning cycle or replace the consumable.']] },
+  { kind: 'test', slug: 'color-test-page', tab: 'color', nav: 'Color', updated: '2026-10-12',
+    title: 'Color Test Page – Free Printable Color Printer Test',
+    desc: 'Print a free color test page with cyan, magenta, yellow, black, red, green and blue blocks plus a gray gradient to diagnose faded ink and banding.',
+    h1: 'Color Test Page',
+    lead: 'Print cyan, magenta, yellow, black, red, green and blue blocks with a gray gradient to find faded inks fast.',
+    blocks: [
+      ['What this page tests', 'Each block shows one color working. Mixed colors reveal whether inks combine correctly, and the gradient shows banding.'],
+      ['How to read it', 'Solid, even blocks mean healthy ink flow. One block faded or missing means that cartridge is low or blocked. A wrong mixed color (green looks yellow) means the cyan channel is weak.'],
+      ['Before you print', 'Enable Background graphics, set scale to 100% and select the right paper type. Plain-paper settings on photo paper change colors.'] ],
+    faq: [['Why are some colors missing on my printout?', 'Turn on Background graphics in the print dialog. If one color is still missing, check that cartridge and run a head cleaning.'], ['Can I use this to calibrate my printer?', 'It helps spot problems but it is not professional calibration, because browsers draw in RGB and your driver converts to ink.']] },
+  { kind: 'test', slug: 'cmyk-test-page', tab: 'cmyk', nav: 'CMYK', updated: '2026-10-12',
+    title: 'CMYK Test Page – Check Cyan, Magenta, Yellow & Black Ink',
+    desc: 'Print a free CMYK-style test page to check cyan, magenta, yellow and black ink on your printer and spot which cartridge is failing.',
+    h1: 'CMYK Test Page',
+    lead: 'Check cyan, magenta, yellow and black separately and find which cartridge is failing.',
+    blocks: [
+      ['What CMYK means', 'CMYK stands for Cyan, Magenta, Yellow and Key (black), the four inks used by most color printers. Each should print as a solid, vivid block.'],
+      ['Important accuracy note', 'Web pages cannot send true CMYK values. This page is drawn in RGB and converted by your printer driver. It reliably shows a faded or blocked ink, but it is not for exact color matching or professional proofing.'],
+      ['Pinpointing the failing ink', 'Faded cyan weakens greens and blues. Faded magenta weakens reds and pinks. Faded yellow makes oranges and greens look cold. Weak black makes text look gray.'] ],
+    faq: [['Is this a real CMYK test?', "It checks your printer's four inks in practice, but the page itself is RGB because browsers cannot output CMYK. Use a print-shop PDF for professional proofing."], ['Which test should I use for clogged nozzles?', "Use the Streaks tab, then run your printer's own nozzle check from its Maintenance menu."]] },
+];
+export const LEGAL = [
+  { kind: 'legal', slug: 'about', updated: '2026-10-12', title: 'About onlineprintertestpage – Free Printer Test Pages', desc: 'Who runs onlineprintertestpage, how the free printer test pages work and our commitment to accurate, honest troubleshooting advice.', h1: 'About onlineprintertestpage',
+    sections: [['Our mission', 'Printer problems waste ink, paper and time. onlineprintertestpage gives you clear test pages and plain-language guidance so you can find the cause quickly: ink, nozzles, alignment, driver or connection.'], ['How it works', 'The test page is generated in your browser and sent to your own printer through the standard print dialog. Nothing you print is uploaded to us.'], ['Honest by design', 'Browsers draw in RGB, so our color pages check your printer output but are not a true CMYK calibration. Printer button shortcuts vary by model, so we point you to your manual when unsure. We are independent and not affiliated with HP, Epson, Canon or Brother.'], ['Editorial standards', 'Guides are reviewed against manufacturer documentation and updated when steps change. Spotted an error? Use the contact page.']] },
+  { kind: 'contact', slug: 'contact', updated: '2026-10-12', title: 'Contact onlineprintertestpage – Feedback & Support', desc: 'Contact the onlineprintertestpage team with feedback, corrections or business enquiries. We reply to every genuine message.', h1: 'Contact Us',
+    sections: [['Get in touch', 'Questions, corrections or partnership ideas? Use the form below, which opens your email app. We usually reply within 2-3 business days. We cannot repair printers, but we are happy to point you in the right direction.']] },
+  { kind: 'legal', slug: 'privacy', updated: '2026-10-12', title: 'Privacy Policy – onlineprintertestpage', desc: 'How onlineprintertestpage handles data: no print content is collected, what basic logs and cookies may be used, and your rights.', h1: 'Privacy Policy',
+    sections: [['What we do not collect', 'Test pages are created and printed inside your browser. We do not receive, store or see anything you print. We do not require accounts.'], ['What may be collected', 'Server logs (IP address, browser type, pages visited, time) kept briefly for security. Aggregated, anonymous analytics. Cookies for analytics and, if enabled, advertising. You can block or delete cookies in your browser settings.'], ['Third parties', 'If we show ads or use analytics, providers such as Google may use cookies to serve ads based on your visits. Third-party sites we link to have their own policies.'], ['Your rights', 'Depending on where you live (for example under GDPR or CCPA) you may request access to or deletion of personal data we hold. Contact us and we will respond.'], ['Children and changes', 'The site is not directed at children under 13. We may update this policy; the date on this page shows the latest version.']] },
+  { kind: 'legal', slug: 'terms', updated: '2026-10-12', title: 'Terms & Conditions – onlineprintertestpage', desc: 'The terms that govern your use of onlineprintertestpage, including acceptable use, intellectual property and limitation of liability.', h1: 'Terms & Conditions',
+    sections: [['Use of the service', 'The tool is free for personal and commercial use. You agree not to misuse the site, attempt to disrupt it, or scrape it at a harmful rate.'], ['Intellectual property', 'Site content, design and code belong to onlineprintertestpage. Brand names mentioned belong to their owners and are used for identification only.'], ['No warranty and liability', 'The service is provided as is. Printing uses ink, toner and paper, and results depend on your printer. To the extent permitted by law we are not liable for any loss or damage arising from use of the site.'], ['Changes and governing law', 'We may update these terms at any time. They are governed by the laws of the jurisdiction in which the site operator is based.']] },
+  { kind: 'legal', slug: 'disclaimer', updated: '2026-10-12', title: 'Disclaimer – onlineprintertestpage', desc: 'onlineprintertestpage is independent and not affiliated with any printer brand. Read about accuracy limits, troubleshooting advice and advertising.', h1: 'Disclaimer',
+    sections: [['General information only', 'Content on onlineprintertestpage is for general information. It is not professional repair advice and does not replace your printer manual or manufacturer support.'], ['No affiliation', 'HP, Epson, Canon, Brother and other names are trademarks of their owners. onlineprintertestpage is independent and not endorsed by them.'], ['Accuracy of tests', 'Test pages are drawn in RGB by your browser and converted by your printer driver. They help spot faded colors, streaks and misalignment but do not provide true CMYK or professional calibration.'], ['Model differences and ads', 'Button shortcuts and menu paths differ between models and firmware. The site may display advertising or affiliate links in future; any such content will be clearly marked.']] },
+];
+export const ALL = [...TESTS, ...LEGAL];
+export const HOME_FAQ = [
+  ['What is a printer test page?', 'A printer test page is a diagnostic print with color blocks, a gray gradient, text samples and alignment lines. It shows whether ink, nozzles, alignment and connection are working.'],
+  ['How do I print a test page on Windows 10 or 11?', 'Open Settings, go to Printers & scanners, choose your printer, click Printer properties and press Print Test Page. Or print one of our pages from your browser.'],
+  ['How do I print a test page on a Mac?', 'Open System Settings, choose Printers & Scanners, select your printer, then print one of our test pages from Safari or Chrome with File, Print.'],
+  ['Can I print a test page from my phone?', 'Yes. On Android use the browser menu, Print. On iPhone use Share, Print with an AirPrint printer on the same Wi-Fi.'],
+  ['Why does my printer print a test page but not documents?', 'The hardware is usually fine. Restart the print spooler, clear the print queue, update the driver and try another app.'],
+  ['Is this a true CMYK test?', 'No. Browsers draw in RGB and your driver converts to ink. It reliably reveals faded colors, streaks and misalignment, not exact color values.'],
+  ['Why are my test page colors missing?', 'Enable Background graphics in the print dialog and make sure color printing is selected.'],
+  ['How do I print an A4 or Letter test page?', 'Pick the paper size in the tool, load the same paper, and choose that size in the print dialog at 100% scale.'],
+];
