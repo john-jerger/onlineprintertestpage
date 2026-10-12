@@ -8,6 +8,7 @@ export const metadata = {
   description: 'Print a free printer test page in one tap. Color, black & white and CMYK tests with live preview, A4/Letter/Legal sizes and a clear guide to reading the results.',
   alternates: { canonical: '/' },
   openGraph: { title: 'Free Printer Test Page Online – onlineprintertestpage', description: 'Color, black & white and CMYK printer test pages. Free, instant, any printer.', url: '/', type: 'website' },
+  verification: { google: 'zrRm8djv_XPFz7FSp-5Fb7cVX29qTtjPK1wvqQ4aANs' },
 };
 
 const TILES = [
